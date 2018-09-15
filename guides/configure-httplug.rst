@@ -20,7 +20,6 @@ responses for a client named ``acme`` you may do:
                 plugins: ['httplug.plugin.logger']
                 config:
                     verify: false
-                    timeout: 2
 
     translation:
         http_client: 'httplug.client.acme'
